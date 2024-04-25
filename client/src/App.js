@@ -1,25 +1,28 @@
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
-import Layout from './components/Layout';
-import Home from './components/Home';
-import Login from './components/Login';
-import Register from './components/Register';
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import IndexPage from "./component/IndexPage";
+import Login from "./component/Login";
+import Register from "./component/Register";
+import ProfilePage from "./component/ProfilePage.js"
+import axios from "axios";
+import { UserContextProvider } from "./userContext";
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
-      <Route path='login' element={<Login />} />
-      <Route path='register' element={<Register />} />
-    </Route>
-  )
-)
+axios.defaults.withCredentials = true;
 
 function App() {
+
   return (
-    <div>
-      <RouterProvider router={router}></RouterProvider>
-    </div>
+    <UserContextProvider>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<IndexPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/profile" element={<ProfilePage />} />
+        </Route>
+      </Routes>
+    </UserContextProvider>
   )
-};
+}
 
 export default App;

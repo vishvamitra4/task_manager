@@ -1,0 +1,51 @@
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    width: 80%;
+    /* Adjust this value based on your requirement */
+    max-width: 50%;
+    /* Adjust this value based on your requirement */
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    color: #718096;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #2d3748;
+}
+
+.close-button .close-icon {
+    font-size: 2.5rem;
+    color: #e53e3e;
+}
