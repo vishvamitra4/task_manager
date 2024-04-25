@@ -1,0 +1,6 @@
+![Task Manager - Google Chrome 25-04-2024 23_22_21](https://github.com/vishvamitra4/task_manager/assets/64136758/6a069954-a844-46e2-b8c5-467309d15335)
+![Task Manager - Google Chrome 25-04-2024 23_22_13](https://github.com/vishvamitra4/task_manager/assets/64136758/83841878-3d0c-4fcd-9b92-8e4440bdb11e)
+![Task Manager - Google Chrome 25-04-2024 23_22_04](https://github.com/vishvamitra4/task_manager/assets/64136758/94c8c2e0-6361-4fda-99c6-4230b6e04796)
+![Task Manager - Google Chrome 25-04-2024 23_21_38](https://github.com/vishvamitra4/task_manager/assets/64136758/762b2741-3dd4-48f4-bb20-af4f3d4ab235)
+![Task Manager - Google Chrome 25-04-2024 23_21_27](https://github.com/vishvamitra4/task_manager/assets/64136758/f3093de7-74f3-43bb-b2fc-ffbe3eb38569)
+![Task Manager - Google Chrome 25-04-2024 23_21_10](https://github.com/vishvamitra4/task_manager/assets/64136758/17c21195-8597-4d25-a801-63baf51dcd56)
